@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logger App</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.shopify.com/s/files/1/0205/6802/files/favicon-16x16.png?v=1664212464">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+        <h1>Number:</h1>
+        <h2 id="count-el">0</h2>
+    <div class="btn-container">
+        <button id="increment-btn" class="btn" onclick="incrementNumber()">Add</button>
+        <button id="decrement-btn" class="btn" onclick="decrementNumber()">Subtract</button>
+        <button id="save-btn" onclick="saveNumber()">Save</button>
+    </div>
+    <div id="show-number" class="saved-numbers">Previous entries: </div>
+    <button class="print-btn" onclick="window.print()">Print</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
